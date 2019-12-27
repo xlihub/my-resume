@@ -1,0 +1,37 @@
+{
+  "name": "resume",
+  "version": "2.0.0",
+  "main": "index.html",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development --open",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:xlihub/resume.git"
+  },
+  "author": "x.li",
+  "license": "cc-by-sa-4.0",
+  "homepage": "http://resume.lovechensh.com",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "css-loader": "^3.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^5.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-loader": "2.1.2",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-vue": "5.2.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
